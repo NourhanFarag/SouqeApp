@@ -78,7 +78,7 @@ service cloud.firestore {
 - more screenshots in folder  `Screenshots`
 
 ### Recorded Video
-[🎬 Watch Demo Video](https://github.com/NourhanFarag/SouqeApp/blob/main/appScreenRecorded.mp4)
+![🎬 Watch Demo Video](https://github.com/NourhanFarag/SouqeApp/blob/main/appScreenRecorded.mp4)
 
 ## 👩‍💻 Author
 
