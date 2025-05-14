@@ -1,7 +1,17 @@
 # 🛒 SOUQÉ – Smart Grocery Shopping App
 
 A new Flutter project.
-SOUQÉ is a cross-platform grocery shopping mobile application developed with Flutter. It offers an intelligent shopping experience with features like personalized recommendations, allergy alerts, cart and order tracking, and Firebase integration for authentication and data storage.
+SOUQÉ is a cross-platform grocery shopping mobile application developed with Flutter. It offers an intelligent shopping experience with personalized recommendations, allergy alerts, cart and order tracking, and Firebase integration for authentication and data storage.
+
+---
+
+## 🏫 Project Information
+
+* **University:** Benha University, Faculty of Engineering (Shoubra)  
+* **Department:** Communications and Computer Engineering  
+* **Course:** Mobile Computing 
+
+---
 
 ## 📲 Features
 
@@ -69,6 +79,15 @@ service cloud.firestore {
   }
 }
 ```
+### 🗺️ Google Maps API Setup
+
+1. Get API Key from [Google Cloud Console](https://console.cloud.google.com/)
+2. Add it to:
+
+   * `android/app/src/main/AndroidManifest.xml`
+   * `ios/Runner/AppDelegate.swift`
+
+---
 
 ## 📷 Screenshots
 ### 🏠 Home Screen & 🗺️ Order Tracking
@@ -80,7 +99,28 @@ service cloud.firestore {
 ### Recorded Video
 ![🎬 Watch Demo Video](https://github.com/NourhanFarag/SouqeApp/blob/main/appScreenRecorded.mp4)
 
-## 👩‍💻 Author
+---
 
-- Nourhan Farag
-- Email: nourhanfarag2002@gmail.com
+## 📦 Packages Used
+
+| Package                  | Purpose                  |
+| ------------------------ | ------------------------ |
+| `firebase_core`          | Firebase initialization  |
+| `firebase_auth`          | Authentication           |
+| `cloud_firestore`        | Realtime database        |
+| `google_sign_in`         | Google login             |
+| `google_maps_flutter`    | Map integration          |
+| `geolocator`             | Location tracking        |
+| `provider`               | State management         |
+| `awesome_dialog`         | Enhanced dialog messages |
+| `intl`                   | Date and time formatting |
+| `flutter_launcher_icons` | App icon customization   |
+
+---
+
+## 🧑‍💻 Team Members
+
+* **Nourhan Farag Mohamed**
+* **Farida Waheed Abdelbary**
+* **Malak Mounir Abdellatef**
+* **Nour Hesham El Sayed**
